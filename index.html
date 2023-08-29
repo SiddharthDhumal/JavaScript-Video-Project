@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Video Project</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="preloader" class="preloader">
+      <img
+        src="https://vannilla-js-basic-project-9-video-preloader.netlify.app/preloader.gif"
+        alt="preloader"
+        class="preloader__item" />
+    </div>
+    <div id="main" class="main">
+      <header>
+        <video muted autoplay loop class="video-container">
+          <source
+            src="https://vannilla-js-basic-project-9-video-preloader.netlify.app/video.mp4"
+            type="video/mp4" />
+        </video>
+
+        <h1>Video Project</h1>
+      </header>
+      <div class="btn">
+        <div id="switch-btn" class="switch-btn"></div>
+        <div class="play-btn">play</div>
+        <div class="pause-btn">pause</div>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
